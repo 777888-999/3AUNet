@@ -14,6 +14,9 @@ xxxx@163.com
 This code is available only for non-commercial use.
 
 ### How to Start ###
+Datasets:
+First, you need to download the open source data sets DRIVE and CHASEDB from the Internet. Then put them in the datasets directory.
+
 Setting：
 Constants.py
 ```bash
