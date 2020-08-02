@@ -1,13 +1,41 @@
 # 3AUNet
 Pytorch implementation of retinal vessel segmentation using 3AUNet
 
+### Motivation ###
+Vessel segmentation in retina is an indispensable part of the task of the automatic detection of retinopathy through fundus images, while there are several challenges, such as lots of image noise, low distinction between blood vessels and environment, and uneven distribution of thick and thin blood vessels.
 
-### Training details ###
-To train the model, simply run this command:
+### contact me ###
+If you have any questions, you can leave a message in the issue or send it to me by email.  My email:
 ```bash
-python train.py --save-path /path/to/model.pt 
+xxxx@163.com
 ```
-On a recent GPU, it takes 30 min per epoch, so ~12h for 25 epochs. 
-You should get a model that scores `0.71 +/- 0.01` in `MMA@3` on HPatches (this standard-deviation is similar to what is reported in Table 1 of the paper). 
 
-Note that you can fully configure the training (i.e. select the data sources, change the batch size, learning rate, number of epochs etc.). One easy way to improve the model is to train for more epochs, e.g. `--epochs 50`. For more details about all parameters, run `python train.py --help`.
+### License me ###
+This code is available only for non-commercial use.
+
+### How to Start ###
+Setting：
+Constants.py
+```bash
+ROOT = './dataset/CHASEDB'
+or
+ROOT = './dataset/DRIVE'
+```
+Training:
+```bash
+python train.py
+```
+Testing:
+```bash
+python test_DRIVE.py
+or
+python test_CHASEDB.py
+```
+
+### Thanks ###
+Some implementation code comes from：
+CE-Net：https://github.com/Guzaiwang/CE-Net
+DANet：https://github.com/junfu1115/DANet
+ECANet：https://github.com/BangguWu/ECANet
+
+
