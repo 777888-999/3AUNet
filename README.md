@@ -34,7 +34,8 @@ python test_DRIVE.py
 or
 python test_CHASEDB.py
 ```
-
+### Show the results ###
+The test results are in the result folder.
 ### Thanks ###
 Some implementation code comes from：
 
