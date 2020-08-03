@@ -2,7 +2,7 @@
 Pytorch implementation of retinal vessel segmentation using 3AUNet
 
 ### Motivation ###
-Vessel segmentation in retina is an indispensable part of the task of the automatic detection of retinopathy through fundus images, while there are several challenges, such as lots of image noise, low distinction between blood vessels and environment, and uneven distribution of thick and thin blood vessels.
+Vessel segmentation in retina is an indispensable part of the task of the automatic detection of retinopathy through fundus images, while there are several challenges, such as lots of image noise, low distinction between blood vessels and environment, and uneven distribution of thick and thin blood vessels. This technology has a great application value with the promising exploration of the combination of medical and computer vision. 
 
 ### contact me ###
 If you have any questions, you can leave a message in the issue or send it to me by email.  My email:
